@@ -1,8 +1,8 @@
 (function(window){
 var byspeaker={};
-byspeaker.speakWord="Good Bye";
-byspeaker.speak=function(name) {
+var speakWord="Good Bye";
+byspeaker.speak=function speak(name) {
   console.log(speakWord + " " + name);
+};
 window.byspeaker=byspeaker;
-}
 })(window);
